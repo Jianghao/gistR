@@ -9,5 +9,5 @@ send.mail.qq <- function(subject, passwd, body="Hello World"){
                         user.name = "240798582@qq.com", passwd = passwd, ssl = TRUE),
             authenticate = TRUE,
             send = TRUE)
-  return(NULL)
+  return("Send email success!\n")
 }
